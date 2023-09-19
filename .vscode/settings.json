@@ -1,0 +1,18 @@
+{
+    "java.project.sourcePaths": [
+        "src\\miniparser"
+    ],
+    "java.project.outputPath": "src\\minijvm",
+    "java.project.referencedLibraries": {
+        "include": [
+            "lib/**/*.jar",
+            "bin\\JFlex.jar",
+            "bin\\java-cup-11b.jar",
+            "bin\\java-cup-11b-runtime.jar"
+        ],
+        "exclude": [
+            "lib/jflex.jar",
+            "bin/jflex.jar"
+        ]
+    }
+}
